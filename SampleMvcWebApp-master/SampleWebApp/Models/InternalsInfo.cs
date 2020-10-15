@@ -41,6 +41,8 @@ namespace SampleWebApp.Models
 
         public int HeapMemoryUsedKbytes { get; private set; }
 
+        public int test { get; private set; }
+
         public InternalsInfo()
         {
             int workerThreads;
